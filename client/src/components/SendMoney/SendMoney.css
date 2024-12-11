@@ -1,0 +1,52 @@
+/* SendMoney.css */
+
+/* Container Styling */
+.send-money-container {
+    height: 100vh;
+    max-width: 400px; /* Limit the max width of the container */
+    margin: 0 auto; /* Center the form */
+    background-color: #e4f2f2; /* Light teal background */
+    padding: 2rem;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(30, 100, 102, 0.2); /* Deep teal shadow */
+}
+
+/* Heading Styling */
+.send-money-container h2 {
+    color: #139385; /* Lighter teal for the heading */
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+.send-money-container button {
+    width: 100%; /* Full-width button */
+    background-color: #1e6466; /* Deep teal background for the button */
+    color: white; /* White text on the button */
+    font-weight: bold;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.send-money-container button:hover {
+    background-color: #139385; /* Lighter teal on hover */
+}
+
+.send-money-container button:active {
+    background-color: #117d74; /* Darker teal on click */
+}
+
+/* Alert Styling */
+.send-money-container .alert {
+    text-align: center; /* Center the alert text */
+    color: #1e6466; /* Deep teal color for alert text */
+    background-color: rgba(30, 100, 102, 0.1); /* Light teal background for the alert */
+    border: 1px solid #1e6466; /* Deep teal border for the alert */
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 20px;
+}

@@ -1,0 +1,47 @@
+/* Main Header */
+.main-header {
+    font-family: Arial, sans-serif;
+    width: 90%;
+    margin: auto;
+    color: #1e6466; /* Deep teal color for header text */
+    text-align: center; /* Center align the header */
+}
+
+/* Transaction Info */
+.transaction-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #e0f0f0; /* Light teal background */
+    padding: 10px;
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Transaction Item */
+.transaction-item h6 {
+    font-weight: 600;
+    color: #1e6466; /* Deep teal color for transaction items */
+}
+
+/* Indicator */
+.indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; /* Full circle for the indicator */
+    background-color: #1e6466; /* Deep teal color for the indicator */
+}
+
+/* Icon */
+.icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 5px;
+    border-radius: 50%; /* Circular icon for a sleek look */
+    color: #1e6466; /* Deep teal color for icons */
+}
+
+.icon:hover {
+    background-color: #4a8b8c; /* Lighter teal shade for hover effect */
+    color: #fff; /* Change icon color to white on hover */
+}

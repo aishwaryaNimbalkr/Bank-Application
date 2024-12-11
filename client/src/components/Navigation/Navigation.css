@@ -1,0 +1,75 @@
+/* Navbar container styling */
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #1e6466; /* Deep teal background */
+    padding: 10px 20px;
+}
+
+/* Navbar links styling */
+.navbar-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #b1d3d1; /* Light teal color for links */
+    width: 12rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* Navbar links hover effect */
+.navbar-links a {
+    text-decoration: none;
+    color: #b1d3d1; /* Light teal color */
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.navbar-links a:hover {
+    color: #178d8b; /* Slightly darker teal on hover */
+    transform: scale(1.1); /* Slight scaling effect */
+}
+
+/* Profile icon styling */
+#profile {
+    height: 2.6rem;
+    width: 2.6rem;
+    background-color: #b1d3d1; /* Light teal background for profile icon */
+    border-radius: 50%; /* Circular shape */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1e1e1e; /* Dark text for contrast */
+    font-weight: bold;
+    font-size: 1.2rem;
+    box-shadow: 0 0 10px rgba(177, 211, 209, 0.5); /* Subtle teal glow */
+}
+
+/* Profile icon hover effect */
+#profile:hover {
+    background-color: #178d8b; /* Darker teal on hover */
+    color: #fff; /* White text on hover */
+    box-shadow: 0 0 15px rgba(23, 141, 139, 0.7); /* Brighter glow on hover */
+}
+
+/* Responsive design for mobile screens */
+@media screen and (max-width: 768px) {
+    .navbar-links {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        color: #b1d3d1; /* Light teal color for mobile */
+    }
+
+    .navbar-container {
+        justify-content: center;
+        padding: 10px;
+    }
+
+    #profile {
+        height: 2.4rem;
+        width: 2.4rem;
+        font-size: 1rem;
+    }
+}

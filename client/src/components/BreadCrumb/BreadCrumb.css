@@ -1,0 +1,52 @@
+/* Breadcrumb Container */
+.breadcrumb-container {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  padding: 10px 20px;
+  background-color: #fff8e1; /* Light golden background */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Breadcrumb Link */
+.breadcrumb-link {
+  display: flex;
+  align-items: center;
+  color: #ffd700; /* Golden color for links */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.breadcrumb-link:hover {
+  color: #b8860b; /* Darker golden color on hover */
+  text-decoration: underline;
+}
+
+/* Breadcrumb Icon */
+.breadcrumb-icon {
+  margin-right: 6px;
+  font-size: 1rem;
+  color: #ffd700; /* Golden color for icons */
+}
+
+/* Breadcrumb Divider */
+.breadcrumb-divider {
+  margin: 0 10px;
+  color: #b8860b; /* Darker golden color for divider */
+  font-size: 1.2rem;
+}
+
+/* Current Breadcrumb Item */
+.breadcrumb-current {
+  font-weight: 600;
+  color: #b8860b; /* Darker golden color for the current item */
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+  .breadcrumb-container {
+      padding: 8px 16px;
+      font-size: 0.9rem;
+  }
+}

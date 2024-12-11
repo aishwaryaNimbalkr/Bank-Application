@@ -1,0 +1,112 @@
+/* General layout for private route */
+.private-route-layout {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #1e6466; /* Deep teal background */
+    font-family: Arial, sans-serif;
+}
+
+/* Content area styling */
+.content-area {
+    width: 100%;
+    padding: 10px;
+}
+
+/* Sidebar and main content layout */
+.sidebar-layout {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px; /* Add some spacing between sidebar and main content */
+}
+
+/* Sidebar styling */
+.sidebar-layout > .sidebar-col {
+    flex: 0 0 250px; /* Sidebar fixed width */
+    background-color: #175a57; /* Darker shade of teal */
+    color: #fff; /* White text for contrast */
+    padding: 15px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Sidebar links with hover effects */
+.sidebar-layout > .sidebar-col a {
+    color: #fff; /* White text */
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.sidebar-layout > .sidebar-col a:hover {
+    background-color: #139385; /* Slightly lighter teal on hover */
+    border-radius: 4px;
+    color: #fff;
+}
+
+/* Main content styling */
+.sidebar-layout > .main-content-col {
+    flex: 1;
+    background-color: #fff; /* White background for content */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Main content wrapper */
+.main-content {
+    width: 100%;
+    background-color: #d9f5f2; /* Light teal background */
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+/* Outlet styling with border and padding */
+.main-content .Outlet {
+    flex-grow: 1;
+    width: 100%;
+    border: 2px solid #175a57; /* Darker teal border */
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    border-radius: 6px;
+}
+
+/* Responsive styles for mobile devices */
+@media screen and (max-width: 768px) {
+    .sidebar-layout {
+        flex-direction: column;
+    }
+
+    .sidebar-layout > .sidebar-col {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-content {
+        height: auto;
+        overflow-y: visible;
+    }
+
+    .main-content .Outlet {
+        padding: 15px;
+        border: 1px solid #139385; /* Lighter teal border for mobile */
+    }
+}
+
+/* Additional styling for hover effects */
+.sidebar-layout > .sidebar-col a {
+    color: #fff; /* White text */
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.sidebar-layout > .sidebar-col a:hover {
+    background-color: #139385; /* Lighter teal hover effect */
+    border-radius: 4px;
+}

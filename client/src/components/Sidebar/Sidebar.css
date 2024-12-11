@@ -1,0 +1,116 @@
+/* Sidebar.css */
+
+/* General Sidebar Styles */
+.sidebar {
+    height: 100vh;
+    width: 250px; /* Adjust width as needed */
+    background-color: #1e6466; /* Deep teal background for sidebar */
+    margin: 0;
+    box-shadow: 4px 0px 8px rgba(30, 100, 102, 0.1); /* Soft deep teal shadow */
+    color: #fff; /* White text for contrast */
+}
+
+.sidebar ul {
+    margin-top: 6px;
+    padding: 0; /* Remove default padding */
+}
+
+.sidebar ul li {
+    width: 100%; /* Make list items full width */
+    padding-left: 2rem;
+    line-height: 2.4rem;
+    color: white; /* White text */
+    font-weight: 500;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.sidebar ul li:hover {
+    background-color: #139385; /* Lighter teal on hover */
+    cursor: pointer;
+    color:white
+}
+.sidebar ul li:active {
+    background-color: white; /* Lighter teal on hover */
+    cursor: pointer;
+    color:#139385
+}
+/* Mobile Styles */
+.sidebar-mobile {
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e6466; /* Deep teal background for mobile */
+}
+
+.sidebar-mobile ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 94%;
+    padding: 2px;
+}
+
+.sidebar-mobile ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px; /* Add margin for spacing */
+    color: #fff; /* White text */
+    font-weight: 500;
+    transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+.sidebar-mobile ul li:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}
+
+/* Tablet Styles */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .sidebar {
+        width: 200px; /* Adjust for tablet width */
+    }
+    .sidebar ul li {
+        line-height: 2.0rem; /* Slightly reduce height for better fit */
+    }
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    .sidebar-mobile {
+        height: 6rem;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .sidebar-mobile ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 94%;
+        padding: 2px;
+    }
+    
+    .sidebar-mobile ul li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 5px; /* Space between items */
+        color: #fff; /* White text */
+    }
+
+    .sidebar-mobile ul li:hover {
+        background-color: #139385; /* Lighter teal on hover */
+        cursor: pointer;
+
+    }
+}

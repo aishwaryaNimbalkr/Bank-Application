@@ -1,0 +1,51 @@
+/* Transaction Detail Container */
+.transaction-detail-container {
+    max-width: 600px; /* Limit the width of the card */
+    margin: 50px auto; /* Center the card */
+    padding: 20px; /* Add padding */
+    background-color: #e0f0f0; /* Light teal background */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for a classy look */
+}
+
+/* Transaction Card */
+.transaction-card {
+    background-color: #1e6466; /* Deep teal background for the card */
+    color: white; /* White text for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Transaction Card Title */
+.transaction-card h3 {
+    color: #fff; /* White color for the title */
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Transaction Card Content */
+.transaction-card p {
+    color: #ffffff; /* White text for contrast */
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+/* Loading Container */
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height loading */
+    background-color: #e0f0f0; /* Light teal background */
+}
+
+/* Loading Text */
+.loading-text {
+    margin-top: 10px; /* Space above the loading text */
+    font-size: 1.2rem;
+    color: #1e6466; /* Deep teal color for loading text */
+    font-weight: bold;
+}

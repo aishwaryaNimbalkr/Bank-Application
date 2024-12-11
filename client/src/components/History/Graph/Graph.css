@@ -1,0 +1,59 @@
+/* Bar Chart Container */
+.bar-chart-container {
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    background-color: #e0f0f0; /* Light teal background */
+    border-radius: 12px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for the chart container */
+}
+
+/* Chart Title */
+.highcharts-title {
+    color: #1e6466; /* Deep teal color for the title */
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Chart Axis Labels */
+.highcharts-axis-labels text {
+    fill: #1e6466; /* Deep teal color for axis labels */
+    font-size: 12px;
+}
+
+/* Chart Legend */
+.highcharts-legend-item text {
+    fill: #1e6466; /* Deep teal color for legend */
+    font-weight: 600;
+}
+
+/* Chart Bars - Deposit */
+.highcharts-series .highcharts-point:nth-child(1) {
+    fill: #1e6466; /* Deep teal color for deposit bars */
+}
+
+/* Chart Bars - Sent */
+.highcharts-series .highcharts-point:nth-child(2) {
+    fill: #4a8b8c; /* Lighter teal shade for sent bars */
+}
+
+/* Chart Background */
+.highcharts-background {
+    fill: #e0f0f0; /* Light teal background */
+}
+
+/* Hover Effect on Bars */
+.highcharts-series .highcharts-point:hover {
+    fill: #4a8b8c; /* Lighter teal shade when hovered */
+    cursor: pointer;
+}
+
+/* Chart Container Styling */
+section {
+    background-color: #e0f0f0; /* Light teal background */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow around the section */
+}

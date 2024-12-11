@@ -1,0 +1,68 @@
+/* Container for the Notification Toggle component */
+.notification-toggle-container {
+    background-color: #1e6466; /* Deep teal background */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(30, 100, 102, 0.4); /* Deep teal shadow */
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Title Styling */
+.notification-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #139385; /* Slightly lighter teal color */
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+/* Style for the toggle switch */
+.notification-switch {
+    margin-top: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #139385; /* Lighter teal for the toggle switch */
+    border-radius: 20px;
+}
+
+/* Customizing the switch itself */
+.notification-switch .form-check-input {
+    background-color: #139385; /* Lighter teal for the switch */
+    border-color: #139385;
+}
+
+.notification-switch .form-check-input:checked {
+    background-color: #117d74; /* Darker teal when checked */
+    border-color: #117d74;
+}
+
+/* Label for the switch */
+.notification-switch label {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* Message after toggling */
+.notification-message {
+    font-size: 1rem;
+    color: #139385; /* Lighter teal color */
+    margin-top: 15px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+/* Adding hover effect for the title and switch */
+.notification-title:hover {
+    color: #117d74; /* Darker teal on hover */
+    cursor: pointer;
+}
+
+.notification-switch:hover .form-check-input {
+    background-color: #117d74; /* Darker teal on hover */
+}

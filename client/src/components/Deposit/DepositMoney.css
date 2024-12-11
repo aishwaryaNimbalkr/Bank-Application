@@ -1,0 +1,48 @@
+/* Deposit Money Container */
+.deposit-money-container {
+    height: 100vh;
+    max-width: 400px; /* Limit the max width of the container */
+    margin: 0 auto; /* Center the form */
+    background-color: #e0f0f0; /* Light teal background for contrast */
+    padding: 20px; /* Add padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for a refined look */
+}
+
+/* Deposit Money Heading */
+.deposit-money-container h2 {
+    color: #1e6466; /* Deep teal color for the heading */
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Button inside Deposit Money Container */
+.deposit-money-container button {
+    width: 100%; /* Full-width button */
+    background-color: #1e6466; /* Deep teal background */
+    color: #fff; /* White text */
+    border: none;
+    padding: 15px;
+    border-radius: 8px; /* Rounded corners */
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.deposit-money-container button:hover {
+    background-color: #125b56; /* Darker teal on hover */
+}
+
+/* Alert box styling */
+.deposit-money-container .alert {
+    text-align: center; /* Center the alert text */
+    background-color: #d0e6e4; /* Soft teal background for alerts */
+    border-color: #1e6466; /* Deep teal border */
+    color: #1e6466; /* Deep teal text */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 20px;
+}

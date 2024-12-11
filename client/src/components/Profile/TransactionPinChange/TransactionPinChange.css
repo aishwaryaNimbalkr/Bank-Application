@@ -1,0 +1,72 @@
+.pin-change-container {
+  height: max-content;
+  padding: 25px; /* Increase padding for more space */
+  background-color: #1e6466; /* Deep teal background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(30, 100, 102, 0.3); /* Soft deep teal shadow for depth */
+  max-width: 450px;
+  margin: 20px auto; /* Center the container horizontally */
+}
+
+h2 {
+  text-align: center; /* Center the title */
+  margin-bottom: 20px;
+  color: #139385; /* Slightly lighter teal color for the title */
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Styling for input fields */
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #139385; /* Lighter teal border */
+  background-color: #fff; /* White background for input fields */
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Input focus effect */
+input:focus {
+  outline: none;
+  border-color: #117d74; /* Darker teal on focus */
+  box-shadow: 0 0 5px rgba(17, 125, 116, 0.6); /* Subtle deep teal glow */
+}
+
+/* Submit button styles */
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #139385; /* Lighter teal button */
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Submit button hover effect */
+.submit-button:hover {
+  background-color: #117d74; /* Darker teal on hover */
+}
+
+/* Submit button active state */
+.submit-button:active {
+  background-color: #0f6a61; /* Even darker teal on active */
+}
+
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+  .pin-change-container {
+    padding: 20px; /* Adjust padding for mobile */
+  }
+
+  h2 {
+    font-size: 1.5rem; /* Smaller title for mobile */
+  }
+}

@@ -1,0 +1,73 @@
+/* Register Container */
+.register-container {
+  min-height: 100vh;
+  background: #e4f2f2; /* Light teal background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Register Form */
+.register-form {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px; /* Rounded corners for a softer feel */
+  box-shadow: 0 4px 12px rgba(30, 100, 102, 0.2); /* Deep teal shadow */
+  border: 1px solid #1e6466; /* Deep teal border */
+}
+
+/* Register Form Title */
+.register-form h2 {
+  font-weight: 600;
+  color: #139385; /* Lighter teal for the title */
+  margin-bottom: 20px; /* Space below the title */
+  text-align: center;
+}
+
+/* Label Styling */
+.register-form .form-label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #117d74; /* Dark teal color for the label */
+}
+
+/* Input Field Styling */
+.register-form .form-control {
+  border-radius: 6px;
+  border: 1px solid #1e6466; /* Deep teal border for input fields */
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.register-form .form-control:focus {
+  border-color: #139385; /* Lighter teal on focus */
+  box-shadow: 0 0 5px rgba(19, 147, 133, 0.5); /* Soft teal glow on focus */
+}
+
+/* Button Styling */
+.register-form .btn-primary {
+  background-color: #1e6466; /* Deep teal button */
+  border: none;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+}
+
+.register-form .btn-primary:hover {
+  background-color: #139385; /* Lighter teal on hover */
+}
+
+.register-form .btn-primary:active {
+  background-color: #117d74; /* Darker teal when clicked */
+}
+
+/* Additional Styling */
+.register-form .form-control::placeholder {
+  color: #117d74; /* Dark teal for placeholder text */
+}
+
+.register-form .form-control:focus::placeholder {
+  color: #139385; /* Lighter teal placeholder on focus */
+}

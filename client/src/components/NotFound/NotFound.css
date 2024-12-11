@@ -1,0 +1,23 @@
+/* NotFound Container */
+.not-found-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1e6466; /* Deep teal background */
+    font-family: Arial, sans-serif;
+}
+
+/* NotFound Message */
+.not-found-message {
+    text-align: center;
+    color: #ffffff; /* White text for contrast */
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Optional: Add a subtle glow effect around the message */
+.not-found-message span {
+    color: #b1d3d1; /* Light teal for emphasis */
+    text-shadow: 0 0 10px rgba(177, 211, 209, 0.6); /* Soft teal glow effect */
+}

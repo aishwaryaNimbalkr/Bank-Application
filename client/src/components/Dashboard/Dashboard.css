@@ -1,0 +1,33 @@
+/* Balance Section */
+.balance-card {
+  background: linear-gradient(135deg, #1e6466, #125b56); /* Deep teal gradient background */
+  border-radius: 10px;
+  padding: 20px;
+  color: white; /* White text for contrast */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.balance-amount {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #125b56; /* Darker teal color for the balance amount */
+}
+
+/* Transaction Item */
+.transaction-item {
+  background-color: #e0f0f0; /* Light teal background for contrast */
+  border: 1px solid #1e6466; /* Deep teal border */
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin-bottom: 15px; /* Space between items */
+  color: #125b56;
+}
+
+.transaction-item:hover {
+  background-color: #1e6466; /* Deep teal background on hover */
+  color: #fff; /* White text when hovered for contrast */
+}
+
+/* .transaction-item p {
+  color: #125b56; /* Darker teal color for text */

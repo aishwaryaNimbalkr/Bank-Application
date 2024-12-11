@@ -1,0 +1,50 @@
+/* Transaction History Container */
+.transaction-history-container {
+  padding: 20px;
+  background-color: #e0f0f0; /* Light teal background for the container */
+  border-radius: 8px; /* Rounded corners for the container */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Shadow effect for depth */
+}
+
+/* Transaction Card */
+.transaction-card {
+  cursor: pointer;
+  background-color: #1e6466; /* Deep teal background for cards */
+  color: #fff; /* White text for contrast */
+  border-radius: 10px; /* Rounded corners */
+  padding: 15px;
+  margin-bottom: 10px;
+  transition: transform 0.2s ease, box-shadow 0.3s ease; /* Smooth scaling and shadow effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow around card */
+}
+
+.transaction-card:hover {
+  transform: scale(1.02); /* Slight zoom effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+  
+}
+
+/* Transaction Info */
+.transaction-info {
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #b0d6d3; /* Light teal background for info */
+  border-radius: 8px;
+  font-weight: 500;
+  color: #1e6466; /* Deep teal text color */
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .transaction-card {
+    margin: 10px 0; /* Add vertical spacing on smaller screens */
+  }
+  
+  .transaction-info {
+    font-size: 0.9rem; /* Adjust font size on mobile */
+  }
+}

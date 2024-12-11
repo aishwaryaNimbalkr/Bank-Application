@@ -1,0 +1,65 @@
+/* Balance Section */
+.profile-container {
+  height: 100vh;
+}
+
+.balance-card {
+  background: linear-gradient(135deg, #1e6466, #1a7f7a); /* Deep teal gradient */
+  border-radius: 15px;
+  color: white;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(30, 100, 102, 0.3); /* Deep teal shadow */
+}
+
+.balance-amount {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #139385; /* Lighter teal for emphasis */
+}
+
+.profile-image img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%; /* Circular image */
+  border: 3px solid #1a7f7a; /* Teal border for the profile picture */
+}
+
+.phone-number {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Settings Section */
+.settings-card {
+  border: 1px solid #139385; /* Lighter teal border */
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #e4f2f2; /* Light teal background */
+  box-shadow: 0 4px 8px rgba(30, 100, 102, 0.2); /* Soft deep teal shadow */
+}
+
+.setting-option p {
+  margin: 0;
+  color: #117d74; /* Darker teal text */
+  font-size: 1rem;
+}
+
+.setting-link {
+  cursor: pointer;
+  color: #1e6466; /* Deep teal link color */
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.setting-link:hover {
+  text-decoration: underline;
+  color: #139385; /* Lighter teal on hover */
+}
+
+.setting-link:active {
+  color: #117d74; /* Darker teal when clicked */
+}
